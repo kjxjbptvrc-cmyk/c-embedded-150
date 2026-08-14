@@ -26,9 +26,9 @@ This project was designed and written with **ChatGPT Pro**.
 
 Pro is what made a *curriculum* possible, not just a pile of drills. It held the whole 150-problem arc in mind: pointers before `void *`, bit operations before fake registers, ring buffers before a parser, timers before a scheduler. It wrote teaching comments that sound like a patient lab instructor — requirements, traps, and “did you actually get this?” questions — instead of dumping answers.
 
-For a learner building a path into firmware, that long-horizon teaching quality is the difference between random exercises and something you can actually follow to a development board.
+For a learner building a path into firmware, that long-horizon teaching quality is the difference between random exercises and something you can actually follow to a development board. Working with Pro also makes the studying itself faster: when a pointer or a bitwise trap does not click, you can ask it to unpack the same idea another way, still without handing you a finished answer.
 
-If you are reading this as part of an OpenAI Pro application: this repo is a concrete example of Pro being used to produce a complete, reusable educational artifact that beginners can start today.
+The model is genuinely strong at this. It keeps the whole map in its head, notices what you are about to misunderstand, and explains it like someone who has sat beside a lot of beginners.
 
 ### Who it is for
 
@@ -103,9 +103,9 @@ Buy an STM32 board (F103 or F407). Learn GPIO → UART → timer → interrupt �
 
 Pro 做成的是一门**课程**，而不是一堆散题。它能把 150 题的弧线拿住：先指针再 `void *`，先位运算再假寄存器，先环形缓冲再解析器，先定时器再调度器。题目注释像实验室里会盯着你的助教——有要求、有坑、有「你真的吃透了吗」——而不是把答案摊在桌上。
 
-对一个要走进固件的学习者来说，这种跨一百多题仍不散架的教学能力，才是随机练习和「可以跟着走到开发板」之间的差别。
+对一个要走进固件的学习者来说，这种跨一百多题仍不散架的教学能力，才是随机练习和「可以跟着走到开发板」之间的差别。有 Pro 在旁边，学习效率也会高一截：指针或位运算卡住时，可以让它换个说法把同一个点讲透，而不必直接要完整答案。
 
-若你因 OpenAI Pro 申请而打开这个仓库：这是把 Pro 用成完整、可复用教育成品的一个实例，新手今天就能开始做。
+这个模型确实很厉害。整张地图它记得住，你快踩坑的时候它先看见，讲解的口气像带过很多新手的人。
 
 ### 适合谁
 
